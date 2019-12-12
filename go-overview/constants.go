@@ -1,4 +1,4 @@
-package go_basic
+package go_overview
 
 func main() {
 
