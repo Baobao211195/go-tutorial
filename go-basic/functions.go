@@ -1,15 +1,14 @@
-package main
+package go_basic
 
 import "fmt"
 
-
 // case 1
-func add(x int, y int) int  {
+func add(x int, y int) int {
 	return x + y
 }
 
 // case 2
-func multiple(x, y int) int  { // shortened declaration variable
+func multiple(x, y int) int { // shortened declaration variable
 	return x * y
 }
 
@@ -33,9 +32,9 @@ func main() {
 	fmt.Println(add(2, 3))
 
 	// call truc tiep (giống kiểu lamda trong java hoặc python) anonynous function
-	fmt.Println(func(x int, y int) int  {return x - y} (5, 1))
+	fmt.Println(func(x int, y int) int { return x - y }(5, 1))
 
-	fmt.Println(multiple(2,3))
+	fmt.Println(multiple(2, 3))
 
 	// one function can be return any number of result
 	var a, b = swap("oanh", "van")
@@ -47,8 +46,5 @@ func main() {
 
 	//Named return values
 	i, j := split(18)
-	fmt.Println(i , j)
+	fmt.Println(i, j)
 }
-
-
-

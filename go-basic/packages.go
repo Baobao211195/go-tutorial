@@ -1,9 +1,10 @@
-package main
+package go_basic
 
 import (
 	"fmt"
 	"math/rand"
 )
+
 // can import separated
 import "time"
 

@@ -1,4 +1,4 @@
-package main
+package go_basic
 
 import (
 	"fmt"
@@ -32,5 +32,5 @@ func main() {
 	float32 float64
 
 	complex64 complex128
-	 */
+	*/
 }

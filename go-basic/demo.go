@@ -1,4 +1,4 @@
-package main
+package go_basic
 
 import (
 	"fmt"
@@ -12,9 +12,7 @@ func main() {
 	//check()
 }
 
-func check()  {
+func check() {
 	fmt.Printf("the second function")
 
-
 }
-
