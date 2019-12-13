@@ -1,4 +1,4 @@
-package go_overview
+package main
 
 import . "fmt"
 

@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="166e1cea-3fb7-42ac-9442-22fb8a626466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-basic/for.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-basic/if-else.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-basic/if-short-statement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-basic/if.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-basic/loop-excercise.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/basic-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/basic-types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/constants.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/default-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/default-values.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/demo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/exported-names.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/exported-names.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/functions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/numerics-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/numerics-constants.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/packages.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/packages.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/short_variable_declarations.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/short_variable_declarations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/types-reference.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/types-reference.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-basic/variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/basic-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/basic-types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/default-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/default-values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/exported-names.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/exported-names.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/numerics-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/numerics-constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/packages.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/packages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/short_variable_declarations.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/short_variable_declarations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/types-reference.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/types-reference.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-overview/variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/variable.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +39,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UsC0Ive7dGshU8hJfr9eh1043f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,12 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build if-else.go">
-    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build loop-excercise.go">
+    <configuration name="go build functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go-basic/for.go" />
+      <filePath value="$PROJECT_DIR$/go-overview/functions.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build if-else.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -98,20 +99,21 @@
       <filePath value="$PROJECT_DIR$/go-basic/if.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build numerics-constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build loop-excercise.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/numerics-constants.go" />
+      <filePath value="$PROJECT_DIR$/go-basic/loop-excercise.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build loop-excercise.go" />
+        <item itemvalue="Go Build.go build functions.go" />
         <item itemvalue="Go Build.go build if-else.go" />
         <item itemvalue="Go Build.go build if-short-statement.go" />
         <item itemvalue="Go Build.go build if.go" />
-        <item itemvalue="Go Build.go build for.go" />
-        <item itemvalue="Go Build.go build numerics-constants.go" />
       </list>
     </recent_temporary>
   </component>
@@ -123,29 +125,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish go basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish go basic" />
+    <MESSAGE value="add if syntax statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="add if syntax statement" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <vendoring-mode>true</vendoring-mode>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go-overview/functions.go</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
