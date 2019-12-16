@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()
-	switch time.Saturday {
+	switch time.Saturday { // có thể ko cần điều kiện as switch true
 	case today + 0:
 		fmt.Println("Today.")
 	case today + 1:

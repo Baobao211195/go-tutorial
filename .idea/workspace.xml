@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="166e1cea-3fb7-42ac-9442-22fb8a626466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-basic/loop-excercise.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-basic/defer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/basic-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/basic-types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/constants.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/default-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/default-values.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/demo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/exported-names.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/exported-names.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/functions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/numerics-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/numerics-constants.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/packages.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/packages.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/short_variable_declarations.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/short_variable_declarations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/types-reference.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/types-reference.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-overview/variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-overview/variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-basic/switch-evaluation-order.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-basic/switch-evaluation-order.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,34 +59,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build loop-excercise.go">
+  <component name="RunManager" selected="Go Build.go build defer.go">
+    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tutorial" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-basic/defer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/go-overview/functions.go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build if-else.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-tutorial" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go-basic/if-else.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build if-short-statement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-tutorial" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go-basic/if-short-statement.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build if.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-tutorial" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go-basic/if.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build loop-excercise.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -107,13 +84,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build switch-evaluation-order.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tutorial" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-basic/switch-evaluation-order.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tutorial" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-basic/switch.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build defer.go" />
+        <item itemvalue="Go Build.go build switch-evaluation-order.go" />
+        <item itemvalue="Go Build.go build switch.go" />
         <item itemvalue="Go Build.go build loop-excercise.go" />
         <item itemvalue="Go Build.go build functions.go" />
-        <item itemvalue="Go Build.go build if-else.go" />
-        <item itemvalue="Go Build.go build if-short-statement.go" />
-        <item itemvalue="Go Build.go build if.go" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +130,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish go basic" />
     <MESSAGE value="add if syntax statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="add if syntax statement" />
+    <MESSAGE value="finish loop excercise" />
+    <MESSAGE value="add switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add switch" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
